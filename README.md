@@ -1,104 +1,78 @@
-📊 Data Warehouse and Analytics Project
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
-This project showcases a complete data warehousing and analytics solution — from ingesting raw data to delivering actionable business insights. Designed as a portfolio-level project, it follows industry best practices in data engineering, data modeling, and analytics.
+# 📊 Data Warehouse and Analytics Project
 
-🏗️ Data Architecture
-This project follows the Medallion Architecture with three layers:
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a full-scale data warehousing and analytics solution — from raw data ingestion to delivering business insights. Designed as a **portfolio project**, it reflects **real-world practices** in **data engineering**, **ETL development**, **data modeling**, and **SQL analytics**.
 
-🔹 Bronze Layer: Raw data ingestion from ERP and CRM systems (CSV files) into SQL Server.
+---
 
-🔸 Silver Layer: Cleaned, standardized, and normalized data for integration and transformation.
+## 🧱 Architecture Overview
 
-⭐ Gold Layer: Business-ready star schema models for efficient analytics and reporting.
+This project follows the **Medallion Architecture**, comprising three key layers:
 
-📖 Project Overview
-What this project includes:
+### 🔹 Bronze Layer
+- Raw data ingestion from source systems (ERP and CRM)
+- Data loaded from **CSV files** into **SQL Server**  
+- No transformations applied — preserves original format
 
-Modern Data Architecture: Implemented using Medallion pattern.
+### 🔸 Silver Layer
+- Data cleansing, standardization, and transformation
+- Data integrated across systems to form a unified view
+- Prepares data for analytical modeling
 
-ETL Pipelines: Built with SQL scripts to extract, transform, and load data.
+### ⭐ Gold Layer
+- Final **business-ready** star schema models
+- Fact and dimension tables optimized for analytical queries
+- Used for reporting and dashboarding
 
-Dimensional Modeling: Star schema with fact and dimension tables.
+---
 
-SQL Analytics & Reporting: Business insights on customer behavior, product performance, and sales trends.
+## 📦 Project Scope
 
-🎯 Key Skills Demonstrated
-This project is ideal for showcasing expertise in:
+This project includes:
 
-🧠 SQL Development
+- **Modern Data Architecture**: Bronze, Silver, Gold layers
+- **ETL Pipelines**: SQL scripts for ingestion, transformation, and modeling
+- **Dimensional Modeling**: Star schema with fact and dimension tables
+- **Analytics & Reporting**: SQL-based business insights
 
-🏗️ Data Architecture
+---
 
-🔄 ETL Pipeline Development
+## 📊 Analytics Goals
 
-📊 Data Modeling
+The project delivers valuable insights on:
 
-📈 Data Analytics
+- 🧍‍♂️ **Customer Behavior**
+- 📦 **Product Performance**
+- 💰 **Sales Trends**
 
-💼 Data Engineering
+These insights enable data-driven business decision-making.
 
-🛠️ Tools & Resources
-Everything is free and easily accessible!
+---
 
-📁 Datasets: ERP and CRM sample data (CSV)
+## 🎯 Who This Is For
 
-🧰 SQL Server Express: Host your data warehouse
+This project is an excellent showcase for roles such as:
 
-🖥️ SSMS (SQL Server Management Studio): Query and manage databases
+- SQL Developer  
+- Data Engineer  
+- Data Analyst  
+- BI Developer  
+- ETL Pipeline Developer  
+- Data Architect
 
-🧠 DrawIO: Design architecture, data flows, and models
+---
 
-📋 Notion: Project templates, planning, and documentation
+## 🛠️ Tools and Resources
 
-🔧 Git & GitHub: Version control and collaboration
+All tools and resources used are **free and open**:
 
-🚀 Project Requirements
-🔧 Data Engineering
-Objective: Build a consolidated SQL Server data warehouse using data from ERP and CRM sources.
+| Tool/Resource             | Description |
+|---------------------------|-------------|
+| 🗃️ CSV Files               | ERP and CRM datasets |
+| 🛢️ SQL Server Express      | Lightweight SQL database server |
+| 🖥️ SQL Server Management Studio (SSMS) | GUI for querying and managing SQL Server |
+| 📐 DrawIO                  | For visualizing architecture and data models |
+| 📘 Notion                  | Project management and documentation |
+| 🧾 GitHub                  | Code versioning and portfolio display |
 
-Load CSV data into SQL Server
-
-Cleanse and validate datasets
-
-Integrate both systems into a unified analytical model
-
-No historization needed – focus on the latest dataset
-
-Document architecture, schema, and naming standards
-
-📊 Data Analysis & BI
-Objective: Deliver meaningful analytics using SQL queries and reporting logic.
-
-Analyze Customer Behavior
-
-Evaluate Product Performance
-
-Track Sales Trends
-
-Refer to docs/requirements.md for detailed analytics questions.
-
-📂 Repository Structure
-graphql
-Copy
-Edit
-data-warehouse-project/
-│
-├── datasets/                  # ERP and CRM CSV files
-├── docs/                      # Architecture, models, and documentation
-│   ├── etl.drawio             # ETL techniques diagram
-│   ├── data_architecture.drawio
-│   ├── data_catalog.md        # Dataset field descriptions
-│   ├── data_flow.drawio
-│   ├── data_models.drawio     # Star schema visual
-│   ├── naming-conventions.md
-│
-├── scripts/                   # ETL scripts (SQL)
-│   ├── bronze/                # Raw ingestion
-│   ├── silver/                # Data transformation
-│   ├── gold/                  # Analytics-ready modeling
-│
-├── tests/                     # Data quality tests
-├── README.md                  # Project overview (this file)
-├── LICENSE
-├── .gitignore
-└── requirements.txt           # Tool dependencies
+---
